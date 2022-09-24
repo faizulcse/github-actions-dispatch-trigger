@@ -16,7 +16,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         EVENT: YOUR_EVENT_TYPE
-        ORG: YOUR_ORG_NAME
-        REPO: YOUR_REPO_NAME
+        ORG: faizulcse
+        REPO: github-actions-dispatch-recevier
       run: |
         curl -d "{\"event_type\": \"${EVENT}\"}" -H "Content-Type: application/json" -H "Authorization: token ${GITHUB_TOKEN}" -H "Accept: application/vnd.github.everest-preview+json" "https://api.github.com/repos/${ORG}/${REPO}/dispatches"
