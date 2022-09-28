@@ -14,7 +14,7 @@ jobs:
       - name: Repository Dispatch
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: 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
+          token: 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
           repository: faizulcse/github-actions-dispatch-receiver
           event-type: android-test-event
           client-payload: '{"app_url": "bs://2429e13f10502caa3a3df584292bd93dbffbdcfa","app_info": "Ferdia Driver Test-v3.7.3-6772"}'
