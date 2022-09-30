@@ -15,7 +15,7 @@ jobs:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           repository: busgroup/teq-ui-automation
           event-type: android-test-event
-          client-payload: '{"app_url": "bs://80546188ba5287b68081cd86cb43b624d026d371","app_info": "Ferdia Driver Test-v3.7.3-6772"}'
+          client-payload: '{"app_url": "bs://80546188ba5287b68081c6cb43b624d026d371","app_info": "Ferdia Driver Test-v3.7.3-6772"}'
 
 
 
